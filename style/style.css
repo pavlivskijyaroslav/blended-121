@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+}
+button {
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+}
+ul,
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+.reg-btn {
+  background-color: #fff;
+  border: 1px solid #bcd0e5;
+  border-radius: 4px;
+  width: 113px;
+  height: 42px;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  color: #173a56;
+}
+.reg-btn-green {
+  background-color: #02897a;
+  font-weight: 600;
+  font-size: 16px;
+  color: #fff;
+}
+.reg-btn-green-hero {
+  width: 180px;
+}
+.reg-btn-transparent {
+  width: 180px;
+  border: none;
+}
+.active-link {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  color: #22343d;
+}
+/* HEADER */
+.header {
+  display: flex;
+  align-items: center;
+  padding: 22px 0;
+}
+.header-logo-wrapper {
+  flex-grow: 1;
+}
+.header-logo {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 28px;
+  color: #173a56;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.header-logo-img {
+}
+.header-navigation {
+  margin-right: 75px;
+}
+.header-navigation-list {
+  display: flex;
+  gap: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #22343d;
+}
+.header-navigation-item {
+}
+.header-navigation-sign {
+  display: flex;
+  gap: 20px;
+}
+
+.header-navigation-sign-item {
+}
+
+/* HERO */
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 25px;
+}
+.hero-wrapper {
+  padding: 115px 0;
+  max-width: 450px;
+}
+.hero-title {
+  font-weight: 700;
+  font-size: 40px;
+
+  /* line-height: 60px; */
+  line-height: 1.5;
+  color: #22343d;
+  margin-bottom: 18px;
+}
+.hero-text {
+  font-weight: 400;
+  font-size: 18px;
+
+  /* line-height: 28px; */
+  line-height: 1.55556;
+  color: #22343d;
+  margin-bottom: 45px;
+}
+.hero-list {
+  display: flex;
+  gap: 30px;
+}
+.hero-list-tem {
+}
+.reg-btn {
+}
+.reg-btn-green {
+}
+.reg-btn-green-hero {
+}
+.reg-btn-transparent {
+  font-weight: 600;
+  font-size: 16px;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #02897a;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.hero-img {
+}
